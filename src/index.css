@@ -25,7 +25,7 @@
     --muted: 115 96 91; /* #73605B brown */
     --muted-foreground: 82 82 82;
 
-    --accent: 208 150 131;
+    --accent: 135 206 235; /* #87CEEB light blue for interactive elements */
     --accent-foreground: 51 0 0;
 
     --destructive: 220 38 38;
@@ -41,7 +41,7 @@
     --sidebar-foreground: 51 0 0;
     --sidebar-primary: 51 0 0;
     --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 208 150 131;
+    --sidebar-accent: 135 206 235;
     --sidebar-accent-foreground: 51 0 0;
     --sidebar-border: 115 96 91;
     --sidebar-ring: 51 0 0;
@@ -66,8 +66,8 @@
     --muted: 115 96 91;
     --muted-foreground: 163 163 163;
 
-    --accent: 115 96 91;
-    --accent-foreground: 208 150 131;
+    --accent: 135 206 235;
+    --accent-foreground: 51 0 0;
 
     --destructive: 220 38 38;
     --destructive-foreground: 208 150 131;
@@ -80,8 +80,8 @@
     --sidebar-foreground: 208 150 131;
     --sidebar-primary: 208 150 131;
     --sidebar-primary-foreground: 51 0 0;
-    --sidebar-accent: 115 96 91;
-    --sidebar-accent-foreground: 208 150 131;
+    --sidebar-accent: 135 206 235;
+    --sidebar-accent-foreground: 51 0 0;
     --sidebar-border: 115 96 91;
     --sidebar-ring: 208 150 131;
   }
@@ -120,4 +120,15 @@
 .hover-lift:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(51, 0, 0, 0.15);
+}
+
+/* Interactive accent color classes */
+.interactive-bg {
+  background-color: hsl(var(--accent));
+  color: hsl(var(--accent-foreground));
+}
+
+.interactive-bg:hover {
+  background-color: hsl(var(--accent) / 0.9);
+  transform: translateY(-2px);
 }

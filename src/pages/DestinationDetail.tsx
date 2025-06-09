@@ -30,6 +30,36 @@ const DestinationDetail = () => {
           image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
           priceRange: "$60-90/night",
           description: "Comfortable mid-range hotel with excellent local cuisine and friendly service."
+        },
+        {
+          name: "Rakaposhi View Hotel",
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$70-100/night",
+          description: "Beautiful hotel with stunning views of Rakaposhi peak and valley gardens."
+        },
+        {
+          name: "Hunza Baltit Inn",
+          image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$50-80/night",
+          description: "Traditional guesthouse near historic Baltit Fort with authentic local experience."
+        },
+        {
+          name: "Mountain Heritage Hotel",
+          image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$90-130/night",
+          description: "Modern amenities combined with traditional Hunza architecture and hospitality."
+        },
+        {
+          name: "Altit Palace Hotel",
+          image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$100-150/night",
+          description: "Historic palace converted to luxury hotel with royal treatment and valley views."
+        },
+        {
+          name: "Cherry Blossom Lodge",
+          image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$40-70/night",
+          description: "Cozy family-run lodge surrounded by apricot orchards and cherry trees."
         }
       ]
     },
@@ -55,6 +85,36 @@ const DestinationDetail = () => {
           image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
           priceRange: "$90-130/night",
           description: "Famous resort by the Lower Kachura Lake with unique boat-shaped restaurant."
+        },
+        {
+          name: "K2 Base Camp Lodge",
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$80-120/night",
+          description: "Adventure lodge specializing in K2 base camp expeditions and gear rental."
+        },
+        {
+          name: "Deosai National Park Hotel",
+          image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$60-90/night",
+          description: "Gateway to Deosai Plains with wildlife viewing and plateau access."
+        },
+        {
+          name: "Satpara Lake Resort",
+          image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$75-110/night",
+          description: "Lakeside resort with water sports, fishing, and scenic boat rides."
+        },
+        {
+          name: "Skardu Serena Hotel",
+          image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$120-180/night",
+          description: "Luxury accommodation with modern amenities and traditional Balti culture."
+        },
+        {
+          name: "Cold Desert Camp",
+          image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$50-80/night",
+          description: "Unique desert camping experience with sand dunes and camel rides."
         }
       ]
     },
@@ -80,6 +140,36 @@ const DestinationDetail = () => {
           image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
           priceRange: "$60-90/night",
           description: "Beautiful location surrounded by pine forests with peaceful atmosphere."
+        },
+        {
+          name: "Himalayan Heights Resort",
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$80-120/night",
+          description: "Mountain resort with hiking trails, spa services, and panoramic views."
+        },
+        {
+          name: "Colonial Heritage Hotel",
+          image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$70-100/night",
+          description: "Historic colonial building restored as boutique hotel with period charm."
+        },
+        {
+          name: "Forest Glen Lodge",
+          image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$55-85/night",
+          description: "Rustic lodge deep in pine forests with nature walks and bird watching."
+        },
+        {
+          name: "Murree Hills Hotel",
+          image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$65-95/night",
+          description: "Traditional hill station hotel with modern comforts and local cuisine."
+        },
+        {
+          name: "Alpine Meadows Resort",
+          image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$45-75/night",
+          description: "Budget-friendly resort with meadow views and outdoor activities."
         }
       ]
     },
@@ -105,6 +195,36 @@ const DestinationDetail = () => {
           image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
           priceRange: "$70-100/night",
           description: "Modern amenities with easy access to major attractions and trekking routes."
+        },
+        {
+          name: "Saif-ul-Malook Resort",
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$90-130/night",
+          description: "Premium resort with lake access, boat tours, and luxury accommodations."
+        },
+        {
+          name: "Valley Paradise Hotel",
+          image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$55-85/night",
+          description: "Family-friendly hotel with garden views and local dining specialties."
+        },
+        {
+          name: "Ansoo Lake Lodge",
+          image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$65-95/night",
+          description: "Adventure lodge for trekkers heading to Ansoo Lake with gear rental."
+        },
+        {
+          name: "Glacial Waters Inn",
+          image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$50-80/night",
+          description: "Riverside inn with fresh mountain water and peaceful river sounds."
+        },
+        {
+          name: "Naran Heights Hotel",
+          image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$75-110/night",
+          description: "Elevated hotel with panoramic valley views and modern facilities."
         }
       ]
     },
@@ -130,6 +250,36 @@ const DestinationDetail = () => {
           image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
           priceRange: "$40-65/night",
           description: "Family-run guest house offering warm hospitality and home-cooked meals."
+        },
+        {
+          name: "Shogran Heights Hotel",
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$70-100/night",
+          description: "Mountain hotel in Shogran with meadow access and hiking opportunities."
+        },
+        {
+          name: "Lulusar Lake Resort",
+          image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$85-125/night",
+          description: "Lakeside resort with fishing, boating, and pristine mountain lake views."
+        },
+        {
+          name: "Kaghan Continental",
+          image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$60-90/night",
+          description: "Modern hotel with conference facilities and business traveler amenities."
+        },
+        {
+          name: "Waterfall Lodge",
+          image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$55-85/night",
+          description: "Scenic lodge near cascading waterfalls with nature sounds and fresh air."
+        },
+        {
+          name: "Glacier Point Hotel",
+          image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          priceRange: "$45-75/night",
+          description: "Adventure base camp for glacier viewing and high-altitude trekking."
         }
       ]
     }
@@ -183,7 +333,7 @@ const DestinationDetail = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {destination.hotels.map((hotel: any, index: number) => (
               <HotelCard 
                 key={index}

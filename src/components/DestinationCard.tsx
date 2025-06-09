@@ -23,7 +23,7 @@ const DestinationCard = ({ name, description, image, slug }: DestinationCardProp
         <p className="text-muted-foreground mb-4 line-clamp-3">{description}</p>
         <Link 
           to={`/destination/${slug}`}
-          className="inline-block bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
+          className="inline-block interactive-bg px-6 py-2 rounded-lg transition-all duration-300 font-medium hover:shadow-lg"
         >
           Explore
         </Link>
