@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">Phone</h3>
-                      <p className="text-muted-foreground">+92 300 1234567</p>
+                      <p className="text-muted-foreground">03255633339</p>
                     </div>
                   </div>
                   
@@ -62,7 +62,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">Email</h3>
-                      <p className="text-muted-foreground">info@waypoint.com</p>
+                      <p className="text-muted-foreground">explorewaypoint@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                       id="name"
                       name="name"
                       required
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                       placeholder="Your full name"
                     />
                   </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                       id="email"
                       name="email"
                       required
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -110,7 +110,7 @@ const Contact = () => {
                       id="subject"
                       name="subject"
                       required
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                       placeholder="What can we help you with?"
                     />
                   </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                       name="message"
                       rows={5}
                       required
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                       placeholder="Tell us about your travel plans or any questions you have..."
                     />
                   </div>

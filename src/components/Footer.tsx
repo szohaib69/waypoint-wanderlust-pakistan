@@ -3,7 +3,7 @@ import { Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/1234567890', '_blank');
+    window.open('https://wa.me/c/923255633339', '_blank');
   };
 
   return (
@@ -14,8 +14,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-2">
-              <p>📧 info@waypoint.com</p>
-              <p>📞 +92 300 1234567</p>
+              <p>📧 explorewaypoint@gmail.com</p>
+              <p>📞 03255633339</p>
               <p>📍 Islamabad, Pakistan</p>
             </div>
           </div>
@@ -25,7 +25,6 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <div className="space-y-2">
               <p><a href="/" className="hover:text-accent transition-colors">Home</a></p>
-              <p><a href="/destinations" className="hover:text-accent transition-colors">Destinations</a></p>
               <p><a href="/about" className="hover:text-accent transition-colors">About</a></p>
               <p><a href="/contact" className="hover:text-accent transition-colors">Contact</a></p>
             </div>

@@ -23,14 +23,6 @@ const Header = () => {
             Home
           </Link>
           <Link 
-            to="/destinations" 
-            className={`hover:text-accent transition-colors ${
-              isActive('/destinations') ? 'text-accent font-semibold' : ''
-            }`}
-          >
-            Destinations
-          </Link>
-          <Link 
             to="/about" 
             className={`hover:text-accent transition-colors ${
               isActive('/about') ? 'text-accent font-semibold' : ''
