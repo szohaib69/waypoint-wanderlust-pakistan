@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,7 +25,7 @@
     --muted: 156 163 175; /* grey */
     --muted-foreground: 75 85 99;
 
-    --accent: 229 231 235; /* light grey for interactive elements */
+    --accent: 245 245 245; /* light grey for interactive elements */
     --accent-foreground: 0 0 0;
 
     --destructive: 220 38 38;
@@ -40,7 +41,7 @@
     --sidebar-foreground: 0 0 0;
     --sidebar-primary: 0 0 0;
     --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 229 231 235;
+    --sidebar-accent: 245 245 245;
     --sidebar-accent-foreground: 0 0 0;
     --sidebar-border: 229 231 235;
     --sidebar-ring: 0 0 0;
@@ -118,16 +119,16 @@
 
 .hover-lift:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(51, 0, 0, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Interactive accent color classes */
 .interactive-bg {
-  background-color: hsl(var(--accent));
-  color: hsl(var(--accent-foreground));
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
 }
 
 .interactive-bg:hover {
-  background-color: hsl(var(--accent) / 0.9);
+  background-color: hsl(var(--primary) / 0.9);
   transform: translateY(-2px);
 }
